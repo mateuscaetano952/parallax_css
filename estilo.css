@@ -1,0 +1,53 @@
+html, body{
+    background-color: #fff;
+    color: #777;
+    height: 100%;
+    font: 16px "Lato", sans-serif;
+    margin: 0px;
+}
+
+.caixa-texto{
+    text-align: justify;
+    padding: 50px 80px;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.caixa-texto h3{
+    color: #111;
+    text-align: center;
+}
+
+
+
+.imagem1{
+    background: url(img/imagem1.jpg) center center no-repeat;
+    
+}
+
+.imagem2{
+    background: url(img/imagem2.jpg) center center no-repeat;
+}
+
+.imagem1 , .imagem2{
+    height: 100%;
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.texto-parallax{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.texto-parallax span{
+    background-color: #111111;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
